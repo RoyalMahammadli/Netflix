@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+.myNav:is(.scrolled){
+    background-color: #0000006a;
+}
+.myNav:not(.scrolled){
+    background-color: transparent;
+}
+
+
+body {
+    background-color: #141414;
+
+}
+
+
+.hamburg-content ul li a {
+    color: grey;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 2;
+    transition: .4s;
+}
+
+.browse-content ul li a,
+.account-box ul li a {
+    color: white;
+    transition: .4s;
+}
+
+.account-box ul li a:hover,
+.browse-content ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.hamburg-content ul li a:hover {
+    color: white;
+}
+
+.hamburg-content ul {
+    color: white;
+    margin-top: 10px;
+}
+
+.active {
+    border-radius: 3px;
+    border: 3px solid white;
+}
+.hamburger-active{
+    border-left: 2px solid red;
+    color: white !important;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top: 0;
+    border-bottom: 14px solid rgb(255, 255, 255);
+}
+
+footer .help-bar a p {
+    color: grey;
+    line-height: 40px;
+    text-transform: capitalize;
+    transition: .4s;
+    font-size: 13px;
+}
+
+footer .help-bar a p:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+.myBtn {
+    background-color: #e6e6e6;
+    background-image: linear-gradient(180deg, #e6e6e6, #ddd);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+    color: #000;
+}
+
+.right-side:hover .myName {
+    text-decoration: underline;
+}
+
+.content-box {
+    box-shadow: 0 0 16px rgba(0, 0, 0, .14), inset 0 0 0 1px #b6b5b2;
+}
+
+.recommend:hover .txt,
+.c1:hover .ca1,
+.c2:hover .ca2,
+.c3:hover .ca3,
+.d1:hover .pd1,
+.d2:hover .pd2,
+.d3:hover .pd3,
+.d4:hover .pd4,
+.d5:hover .pd5,
+.d6:hover .pd6
+{
+    color: red;
+    text-decoration: underline;
+
+}
+
+.lia1:hover .a1,
+.lia2:hover .a2,
+.d1:hover .da1,
+.d2:hover .da2,
+.d3:hover .da3,
+.d4:hover .da4,
+.d5:hover .da5,
+.d6:hover .da6
+{
+
+animation: arrow .5s linear backwards;
+}
+
+@keyframes arrow {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(10px, 0);
+    }
+}
+.contact-btn{
+    background-color: #fff;
+    color: #4c4948;
+    border: 1px solid #8b8a88;
+    border-radius: 2px;
+    padding: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    transition: .4s all;
+}
+.contact-btn:hover{
+    cursor: pointer;
+    background-color: #FAFAFA;
+}
