@@ -55,7 +55,7 @@ function Accaunt() {
                 <nav className='flex justify-between min-[740px]:px-8 min-[740px]:py-[9px]'>
                     <div className="left-side flex items-center">
 
-                        <div onClick={() => window.location.reload(true)} className=' cursor-pointer w-[115px] min-[800px]:w-[120px]'><Link to='/home'><img className='w-[100%]' src={logo} alt="netflix logo" /></Link></div>
+                        <div onClick={() => window.location.reload(true)} className=' cursor-pointer w-[115px] min-[800px]:w-[120px]'><Link to='/'><img className='w-[100%]' src={logo} alt="netflix logo" /></Link></div>
 
                     </div>
 
@@ -69,11 +69,11 @@ function Accaunt() {
                             <ul className='text-white p-3 capitalize text-[14px]'>
 
                                 <li className='border-b pb-4'><Link className='accaunt-link'>transfer profile</Link></li>
-                                <li className='pt-4'><Link className='accaunt-link' to='/home/accaunt
+                                <li className='pt-4'><Link className='accaunt-link' to='/accaunt
                             '>account</Link></li>
                                 <li className='pt-6 pb-4' ><Link className='accaunt-link' to='/help'>help center</Link></li>
                                 <li className='p-3 pt-6  border-t '><Link className='accaunt-link'>sign <span className='lowercase'>out of </span> netflix</Link></li>
-                                <li className='pt-4 min-[400px]:hidden' ><Link className='accaunt-link' to='/home'>check <span className='lowercase'>it out</span></Link></li>
+                                <li className='pt-4 min-[400px]:hidden' ><Link className='accaunt-link' to='/'>check <span className='lowercase'>it out</span></Link></li>
                             </ul>
 
                         </div>

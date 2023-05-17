@@ -29,24 +29,25 @@ const [loading,setLoading]=useState(true)
             // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5,
-            slidesToSlide: 3 
+            slidesToSlide: 3
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
             items: 5,
-            slidesToSlide: 3 
+            slidesToSlide: 3
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items:3,
-            slidesToSlide: 1 
+            items: 3,
+            slidesToSlide: 1
         },
         mobile: {
-            breakpoint: { max: 367, min: 280 },
+            breakpoint: { max: 464, min: 0 },
             items: 2.1,
-            slidesToSlide: 1 
+            slidesToSlide: 1
         }
     };
+
 
     const myMap = mydata.filter((item) => item.title.toLowerCase().includes(search.toLowerCase())).map((item) =>loading ? <Loading key={nanoid()}/> : <Card key={nanoid()} {...item} />)
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, Navigate } from 'react-router-dom'
+import { Route, Routes} from 'react-router-dom'
 import Home from '../pages/Home'
 import Thriller from '../pages/Thriller'
 import International from '../pages/International'
@@ -28,29 +28,28 @@ function Routing() {
   return (
     <div>
          <Routes>
-                    <Route path='/home' element={<Home />} />
-                    <Route  path='/home/accaunt' element={<Accaunt/>}/>
-                    <Route  path='/home/mylist' element={<Mylist/>}/>
-                    <Route  path='/home/:id' element={<CardDetail/>}/>
-                    <Route path='/home/thriller' element={<Thriller />} />
-                    <Route path='/home/animation' element={<Animation />} />
-                    <Route path='/home/international' element={<International />} />
-                    <Route  path='/home/action' element={<Action/>}/>
-                    <Route  path='/home/comedy' element={<Comedy/>}/>
-                    <Route  path='/home/crime' element={<Crime/>}/>
-                    <Route  path='/home/documentary' element={<Documentary/>}/>
-                    <Route  path='/home/drama' element={<Drama/>}/>
-                    <Route  path='/home/europFilms' element={<EuropFilms/>}/>
-                    <Route  path='/home/fantastic' element={<Fantastic/>}/>
-                    <Route  path='/home/horror' element={<Horror/>}/>
-                    <Route  path='/home/kidAndFamily' element={<KidandFamily/>}/>
-                    <Route  path='/home/musicAndMusicals' element={<MusicAndMusicals/>}/>
-                    <Route  path='/home/realityShows' element={<RealityShows/>}/>
-                    <Route  path='/home/romantic' element={<Romantic/>}/>
-                    <Route  path='/home/scientic' element={<Scientic/>}/>
-                    <Route  path='/home/standUp' element={<StandUp/>}/>
+                    <Route path='/' element={<Home />} />
+                    <Route  path='/accaunt' element={<Accaunt/>}/>
+                    <Route  path='/mylist' element={<Mylist/>}/>
+                    <Route  path='/:id' element={<CardDetail/>}/>
+                    <Route path='/thriller' element={<Thriller />} />
+                    <Route path='/animation' element={<Animation />} />
+                    <Route path='/international' element={<International />} />
+                    <Route  path='/action' element={<Action/>}/>
+                    <Route  path='/comedy' element={<Comedy/>}/>
+                    <Route  path='/crime' element={<Crime/>}/>
+                    <Route  path='/documentary' element={<Documentary/>}/>
+                    <Route  path='/drama' element={<Drama/>}/>
+                    <Route  path='/europFilms' element={<EuropFilms/>}/>
+                    <Route  path='/fantastic' element={<Fantastic/>}/>
+                    <Route  path='/horror' element={<Horror/>}/>
+                    <Route  path='/kidAndFamily' element={<KidandFamily/>}/>
+                    <Route  path='/musicAndMusicals' element={<MusicAndMusicals/>}/>
+                    <Route  path='/realityShows' element={<RealityShows/>}/>
+                    <Route  path='/romantic' element={<Romantic/>}/>
+                    <Route  path='/scientic' element={<Scientic/>}/>
+                    <Route  path='/standUp' element={<StandUp/>}/>
                     <Route  path='/help' element={<HelpCenter/>}/>
-                    <Route path="*" element={<Navigate to="/home" replace />} />
                 </Routes>
     </div>
   )

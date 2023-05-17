@@ -23,9 +23,9 @@ function HelpCenter() {
         <nav className='flex justify-between min-[740px]:px-8 min-[740px]:py-[9px] relative'>
           <div className="left-side flex items-center">
 
-            <div onClick={() => window.location.reload(true)} className=' absolute cursor-pointer w-[125px] min-[600px]:w-[135px] min-[1200px]:w-[140px]'><Link to='/home'><img className='hidden min-[600px]:flex' src={logo} alt="netflix logo" />
+            <div onClick={() => window.location.reload(true)} className=' absolute cursor-pointer w-[125px] min-[600px]:w-[135px] min-[1200px]:w-[140px]'><Link to='/'><img className='hidden min-[600px]:flex' src={logo} alt="netflix logo" />
             </Link></div>
-            <div onClick={() => window.location.reload(true)} className='absolute cursor-pointer w-[45px] min-[800px]:w-[120px]'><Link to='/home'><img className='w-full min-[600px]:hidden' src={N_Icon} alt="N-logo" />
+            <div onClick={() => window.location.reload(true)} className='absolute cursor-pointer w-[45px] min-[800px]:w-[120px]'><Link to='/'><img className='w-full min-[600px]:hidden' src={N_Icon} alt="N-logo" />
 
             </Link></div>
 

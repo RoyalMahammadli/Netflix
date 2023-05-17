@@ -16,7 +16,7 @@ function Card({ backdrop_path, title, id }) {
 
 
     return (
-        <Link to={`/home/${id}`}>
+        <Link to={`/${id}`}>
             <div className=' w-full relative inline-block  duration-300 ease-in-out   shadow-md hover:shadow-red-50/40 cursor-pointer '>
                 <img className=' w-full block  h-full object-cover' src={`https://image.tmdb.org/t/p/w500/${backdrop_path}`} alt={title} />
                 <div className="Skin duration-300 ease-in-out hover:bg-black/80  w-full h-full absolute top-0 left-0 opacity-0  hover:opacity-100 ">
