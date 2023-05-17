@@ -93,7 +93,7 @@ function Navbar() {
                             <li><Link className='hamburger-link' to='/help'>help center</Link></li>
                             <li className='pb-3 border-b border-gray-600'><Link>sign <span className='lowercase'>out of </span> netflix</Link></li>
                            
-                            <li><NavLink className={({isActive})=>((isActive && location.pathname==="/")? "hamburger-active":"hamburger-link")}  to='/home'>home</NavLink></li>
+                            <li><NavLink className={({isActive})=>((isActive && location.pathname==="/")? "hamburger-active":"hamburger-link")}  to='/Netflix'>home</NavLink></li>
                             <li><NavLink className={({isActive})=>(isActive? "hamburger-active":"hamburger-link")} to='/mylist'>my list</NavLink></li>
                             <li><NavLink className={({isActive})=>(isActive? "hamburger-active":"hamburger-link")} to='/thriller'>thriller</NavLink></li>
                             <li><NavLink className={({isActive})=>(isActive? "hamburger-active":"hamburger-link")} to='/crime'>crime</NavLink></li>
@@ -116,7 +116,7 @@ function Navbar() {
                     </div>
 
 
-                    <div onClick={() => window.location.reload(true)} className='ml-4 cursor-pointer w-[85px] min-[800px]:w-[120px]'><Link to='/'><img className='w-[100%]' src={logo} alt="netflix logo" /></Link></div>
+                    <div onClick={() => window.location.reload(true)} className='ml-4 cursor-pointer w-[85px] min-[800px]:w-[120px]'><Link to='/Netflix'><img className='w-[100%]' src={logo} alt="netflix logo" /></Link></div>
                     <div onMouseEnter={()=>setBrowse(true)} className="browser  hidden min-[800px]:flex ">
                         <p  className='text-[#e50914] flex items-center capitalize ml-[48px] cursor-pointer'>browse </p>
                     </div>
