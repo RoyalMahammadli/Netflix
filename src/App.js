@@ -1,9 +1,12 @@
-import Mainlayout from "./layouts/Mainlayout";
+import { ContextProvider } from "./Context/Context";
+import Routing from "./Routing/Routing";
 
 function App() {
   return (
     <div className="App">
-      <Mainlayout />
+      <ContextProvider>
+        <Routing />
+      </ContextProvider>
     </div>
   );
 }
