@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Netflix/static/css/main.111df343.css",
-    "main.js": "/Netflix/static/js/main.7bf7e996.js",
+    "main.js": "/Netflix/static/js/main.0d7165eb.js",
     "static/media/Sherlock Holmes_ A Game of Shadows (2011) - Checkmate Scene (8_10) _ Movieclips.mp4": "/Netflix/static/media/Sherlock Holmes_ A Game of Shadows (2011) - Checkmate Scene (8_10) _ Movieclips.7688f171e4a47375e64f.mp4",
     "static/media/smile.webp": "/Netflix/static/media/smile.52daeb86c382f73b4e17.webp",
     "static/media/chicken.jpg": "/Netflix/static/media/chicken.2fc30e27b948978da252.jpg",
@@ -12,10 +12,10 @@
     "static/media/revicons.woff": "/Netflix/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Netflix/index.html",
     "main.111df343.css.map": "/Netflix/static/css/main.111df343.css.map",
-    "main.7bf7e996.js.map": "/Netflix/static/js/main.7bf7e996.js.map"
+    "main.0d7165eb.js.map": "/Netflix/static/js/main.0d7165eb.js.map"
   },
   "entrypoints": [
     "static/css/main.111df343.css",
-    "static/js/main.7bf7e996.js"
+    "static/js/main.0d7165eb.js"
   ]
 }
