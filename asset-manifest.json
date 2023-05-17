@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Netflix/static/css/main.111df343.css",
+    "main.js": "/Netflix/static/js/main.09cf0c04.js",
+    "static/media/Sherlock Holmes_ A Game of Shadows (2011) - Checkmate Scene (8_10) _ Movieclips.mp4": "/Netflix/static/media/Sherlock Holmes_ A Game of Shadows (2011) - Checkmate Scene (8_10) _ Movieclips.7688f171e4a47375e64f.mp4",
+    "static/media/smile.webp": "/Netflix/static/media/smile.52daeb86c382f73b4e17.webp",
+    "static/media/chicken.jpg": "/Netflix/static/media/chicken.2fc30e27b948978da252.jpg",
+    "static/media/N-icon.png": "/Netflix/static/media/N-icon.8580ee2d5e2ba5f1470d.png",
+    "static/media/revicons.eot": "/Netflix/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Netflix/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/logo-icon.png": "/Netflix/static/media/logo-icon.1e8ee262ae6a92308dc6.png",
+    "static/media/revicons.woff": "/Netflix/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Netflix/index.html",
+    "main.111df343.css.map": "/Netflix/static/css/main.111df343.css.map",
+    "main.09cf0c04.js.map": "/Netflix/static/js/main.09cf0c04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.111df343.css",
+    "static/js/main.09cf0c04.js"
+  ]
+}
