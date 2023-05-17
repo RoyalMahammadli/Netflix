@@ -2,6 +2,7 @@
   "name": "netflix",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.GeniusSlacker.github.io/Netflix",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -20,6 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.16"
+    "@types/jquery": "^3.5.16",
+    "gh-pages": "^5.0.0"
   }
 }
